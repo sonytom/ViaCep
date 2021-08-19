@@ -1,10 +1,12 @@
-package com.example.spring;
+package com.example.spring.repository;
 
 
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
+
+import com.example.spring.entity.Customer;
 
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
 
