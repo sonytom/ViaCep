@@ -15,7 +15,7 @@ package com.example.spring;
 	 *
 	 */
 
-	@org.springframework.web.bind.annotation.ControllerAdvice
+	@ControllerAdvice
 	public class ControllerAdvice {
 
 		@ExceptionHandler(Exception.class)

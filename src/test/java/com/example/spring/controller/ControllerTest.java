@@ -2,9 +2,9 @@ package com.example.spring.controller;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Before;
+
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
+
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
@@ -13,7 +13,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 import java.util.ArrayList;
 import java.util.Date;
